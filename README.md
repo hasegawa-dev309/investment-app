@@ -1,4 +1,7 @@
 # 投資判断アプリ（ベータ＋機能拡張版）
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-red)
+
 
 このアプリは、株式投資初心者が「今この株を買うべきか？」を簡単に判断できるように設計されたWebアプリです。企業コードやティッカーを入力するだけで、株価推移・移動平均線分析・業績指標・PER・ROEなどの収益性評価・成長率分析・投資判断まとめまでを一括で確認できます。
 
@@ -26,3 +29,26 @@
 - 売上高・純利益の推移グラフと成長率診断
 - 赤字年数の判定と安定性診断
 - 投資判断の自動まとめ表示（初心者向けの明快な助言）
+
+## アプリの使い方
+
+1. このリポジトリをクローンする
+git clone https://investment-app-ytuz5blgarsdjdejoxg7of.streamlit.app/
+2. 必要なライブラリをインストールする
+pip install -r requirements.txt
+3. アプリを起動する
+streamlit run streamlit_app.py
+4. ブラウザで開いたら、企業コード（例：AAPL, 7203）を入力して分析結果を確認！
+※ 日本株は `.T` が自動でつくようになっています。
+
+## 今後の展望
+
+- より細かい財務指標（営業利益率、自己資本比率など）の可視化
+- テクニカル分析（RSIやMACDなど）への対応
+- 投資経験者向けのスクリーニング機能追加
+
+---
+
+作成者：hasegawashion  
+GitHub：https://github.com/hasegawa-dev309  
+ご質問などあればお気軽にどうぞ！
