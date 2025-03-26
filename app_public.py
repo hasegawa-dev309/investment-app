@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import datetime
 
-st.titile("就活スケジュール管理アプリ - デモ版")
+st.title("就活スケジュール管理アプリ - デモ版")
 
 data = [
     ["サンプル株式会社", "2025-03-01", "一次面接", "2025-03-15"],
