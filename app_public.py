@@ -22,4 +22,4 @@ def highlight_status(row):
         color = "background-color: pink"
     return [color] * len(row)
 
-st.dateframe(df.style.apply(highlight_status, axis=1))
+st.dataframe(df)
