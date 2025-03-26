@@ -61,8 +61,8 @@ if stock_code:
                     st.success("📈 上昇トレンド中！ホールドや買い増しの検討を。")
                 else:
                     st.info("🔄 トレンドは不安定です。様子を見ましょう。")
-            except:
-                st.warning("売却アドバイスを出すための株価情報が不足しています。")
+        except:
+            st.warning("売却アドバイスを出すための株価情報が不足しています。")
 
         info = ticker.info
         st.subheader("企業情報")
