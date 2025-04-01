@@ -47,6 +47,11 @@ streamlit run streamlit_app.py
 - テクニカル分析（RSIやMACDなど）への対応
 - 投資経験者向けのスクリーニング機能追加
 
+## 実行ファイル
+
+- このアプリのメインコードは`streamlit_app.py`です。
+- 他の`.py`ファイルや`.csv`は実験用・補助データとして一部残っています。
+
 ---
 
 作成者：hasegawashion  
