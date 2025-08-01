@@ -1,0 +1,5 @@
+export enum AgeGroup {
+  HIGH_SCHOOL = 'HIGH_SCHOOL',
+  UNIVERSITY = 'UNIVERSITY',
+  OTHER = 'OTHER',
+}
